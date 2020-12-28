@@ -11,8 +11,8 @@ else: # Module Run, When going production - delete if/else
 expenses = Expense.Expenses()
 
 # S2
-fname = os.path.abspath('..')+'\data\spending_data.csv'
-expenses.read_expenses(fname)
+# fname = os.path.abspath('..')+'\data\spending_data.csv'
+expenses.read_expenses('data/spending_data.csv')
 
 # S3
 spending_categories = []
